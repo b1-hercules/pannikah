@@ -102,7 +102,7 @@ strong, b {
 }
 
 body {
-   background: #ecf0f1 url(../images/bg.png);
+   background-color: #c5c9ca;
 }
 
 .wrap {
@@ -217,7 +217,7 @@ body {
 }
 
 .sf-menu a {
-   color: #fff
+   color: #d1d1d1
 }
 
 .sf-menu a:hover {
@@ -485,7 +485,7 @@ body {
 }
 
 #event .event-item ul {
-   padding: 40px 20px
+   padding: 20px 20px
 }
 
 #event .event-item li {
