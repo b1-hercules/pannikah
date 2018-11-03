@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
    border: 0;
@@ -29,17 +29,28 @@ table {
 }
 
 @font-face {
-   font-family: 'NeoSansIntel';
-   src: url('../font/neosansintel.eot');
-   src: url('../font/neosansintel.eot?#iefix') format('embedded-opentype'), url('../font/neosansintel.woff') format('woff'), url('../font/neosansintel.ttf') format('truetype'), url('../font/neosansintel.svg#neosansintel') format('svg');
+   font-family: 'robotoregular';
+   src: url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot');
+   src: url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff2') format('woff2'),
+   url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'),
+   url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'),
+   url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular') format('svg');
    font-weight: normal;
-   font-style: normal
+   font-style: normal;
+
 }
 
 @font-face {
-   font-family: 'NeoSansIntelMedium';
-   src: url('../font/neosansintel-medium.eot');
-   src: url('../font/neosansintel-medium.eot') format('embedded-opentype'), url('../font/neosansintel-medium.woff') format('woff'), url('../font/neosansintel-medium.ttf') format('truetype'), url('../font/neosansintel-medium.svg#NeoSansIntelMedium') format('svg')
+   font-family: 'robotomedium';
+   src: url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot');
+   src: url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff2') format('woff2'),
+   url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff') format('woff'),
+   url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf') format('truetype'),
+   url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+   font-weight: normal;
+   font-style: normal;
 }
 
 .transition {
@@ -82,7 +93,7 @@ img {
 }
 
 body {
-   font-family: "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 13px;
    font-weight: normal;
    color: #2c3e50;
@@ -91,13 +102,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif, Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: normal;
    line-height: normal
 }
 
 strong, b {
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-weight: normal
 }
 
@@ -117,7 +128,7 @@ body {
    min-height: 30px;
    float: left;
    background-color: #61b634;
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif
+   font-family: 'Roboto', sans-serif;
 }
 
 #nav-portal a#nav-portal-toogle {
@@ -213,7 +224,7 @@ body {
    padding: .6em 1em;
    text-decoration: none;
    zoom: 1;
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif
+   font-family: 'Roboto', sans-serif;
 }
 
 .sf-menu a {
@@ -309,7 +320,7 @@ body {
 #mainnav {
    width: 22.64150943%;
    float: left;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    text-transform: uppercase;
    position: relative;
    z-index: 5;
@@ -376,7 +387,7 @@ body {
 }
 
 .block h2 {
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 14px;
    text-transform: uppercase;
    padding: 10px 10px 10px 50px;
@@ -402,7 +413,7 @@ body {
 .block ul a {
    display: block;
    padding: 7px 15px;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    color: #fff;
    text-transform: capitalize
 }
@@ -498,7 +509,7 @@ body {
 
 #event .event-item li.event-item-title {
    background-position: 0 3px;
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif
+   font-family: 'Roboto', sans-serif;
 }
 
 #event .event-item li.event-item-date {
@@ -596,7 +607,7 @@ body {
    background: transparent url(../images/icon-title.png) no-repeat 10px 5px;
    font-size: 20px;
    color: #61b634;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    text-transform: capitalize
 }
 
@@ -624,7 +635,7 @@ body {
    display: block;
    color: #fff;
    background-color: #61b634;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    text-align: center;
    padding: 3px 0;
    -webkit-border-radius: 4px;
@@ -682,7 +693,7 @@ body {
 
 #pmb .pmb-list li span.pmb-title {
    color: #fff;
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 14px;
    line-height: 15px
 }
@@ -691,7 +702,7 @@ body {
    color: #2c3e50;
    font-size: 11px;
    line-height: 15px;
-   font-family: "Open Sans", Verdana, Arial, serif
+   font-family: 'Roboto', sans-serif;
 }
 
 #pmb .pmb-list li a {
@@ -882,7 +893,7 @@ body {
 }
 
 #sidebar .block-title {
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 11px;
    text-transform: uppercase;
    padding: 13px 0 13px 50px;
@@ -939,7 +950,7 @@ body {
 }
 
 #sidebar .widget h3.widget-title {
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 14px;
    color: #47617a;
    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
@@ -1036,7 +1047,7 @@ body {
 }
 
 #content .page-title, #content .post-title {
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 22px;
    color: #61b634;
    background: transparent url(../images/icon-title.png) no-repeat 0 7px;
@@ -1142,7 +1153,7 @@ body {
    -ms-border-radius: 2px;
    -o-border-radius: 2px;
    border-radius: 2px;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
@@ -1258,7 +1269,7 @@ body {
    padding: 10px;
    background-color: #fff;
    font-size: 10px;
-   font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    text-transform: uppercase;
    color: #999
 }
@@ -1803,7 +1814,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       min-height: 30px;
       float: left;
       background-color: #61b634;
-      font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif
+      font-family: 'Roboto', sans-serif;
    }
 
    #nav-portal a#nav-portal-toogle {
@@ -1871,7 +1882,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       overflow-y: auto;
       background: #61b634 url(../images/sidr.png) repeat-y right top;
       color: #fff;
-      font-family: 'NeoSansIntelMedium', Tahoma, "Open Sans", Verdana, Arial, serif;
+      font-family: 'Roboto', sans-serif;
       text-transform: uppercase
    }
 
@@ -2047,7 +2058,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
    font-size: 14px;
    color: #61b634;
    font-weight: bold;
-   font-family: 'NeoSansIntel', Tahoma, "Open Sans", Verdana, Arial, serif;
+   font-family: 'Roboto', sans-serif;
    text-transform: capitalize
 }
 
@@ -2075,7 +2086,7 @@ a.button {
    border: 1px solid #8a8a8a;
    display: inline-block;
    color: #ffffff;
-   font-family: 'cooper black' !important;
+   font-family: 'Roboto', sans-serif !important;
    font-size: 17px;
    font-weight: bold;
    font-style: normal;
