@@ -32,7 +32,6 @@ table {
    font-family: 'robotoregular';
    src: url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot');
    src: url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-   url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff2') format('woff2'),
    url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff'),
    url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.ttf') format('truetype'),
    url('../font/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.svg#robotoregular') format('svg');
@@ -45,7 +44,6 @@ table {
    font-family: 'robotomedium';
    src: url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot');
    src: url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-   url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff2') format('woff2'),
    url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff') format('woff'),
    url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf') format('truetype'),
    url('../font/web fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg#robotomedium') format('svg');
@@ -113,7 +111,7 @@ strong, b {
 }
 
 body {
-   background-color: #c5c9ca;
+   background-color: #ececec;
 }
 
 .wrap {
@@ -142,18 +140,17 @@ body {
 #nav-portal li {
    float: left;
    position: relative;
-   border-right: 1px solid rgba(255, 255, 255, 0.3)
+
 }
 
 #nav-portal li:first-child {
-   border-left: 1px solid rgba(255, 255, 255, 0.3)
+
 }
 
 #nav-portal a {
    display: block;
    color: #fff;
-   padding: 5px 13px;
-   text-transform: uppercase
+   padding: 8px 13px;
 }
 
 #nav-portal li.UAJY a, #nav-portal li.active a, #nav-portal a:hover {
@@ -310,7 +307,7 @@ body {
 }
 
 #head {
-   padding: 35px 0
+   padding: 10px 0
 }
 
 #hero {
@@ -321,7 +318,6 @@ body {
    width: 22.64150943%;
    float: left;
    font-family: 'Roboto', sans-serif;
-   text-transform: uppercase;
    position: relative;
    z-index: 5;
    font-size: 11px
@@ -389,7 +385,7 @@ body {
 .block h2 {
    font-family: 'Roboto', sans-serif;
    font-size: 14px;
-   text-transform: uppercase;
+ 
    padding: 10px 10px 10px 50px;
    position: relative
 }
@@ -427,7 +423,8 @@ body {
    color: #fff;
    width: 49.05660377%;
    position: relative;
-   float: left
+   float: left;
+   margin-right: 1.88679245%;
 }
 
 #event.en {
@@ -535,8 +532,8 @@ body {
    float: right;
    width: 55px;
    position: absolute;
-   right: -2px;
-   top: 12px;
+   right: 2px;
+   top: 6px;
    color: #000;
    z-index: 1
 }
@@ -581,7 +578,7 @@ body {
    margin: 0;
    padding: 12px 50px;
    font-size: 12px;
-   text-transform: uppercase;
+ 
    position: relative
 }
 
@@ -659,95 +656,6 @@ body {
    margin: 0
 }
 
-#pmb {
-   float: right;
-   width: 49.05660377%;
-   background-color: #ecf0f1
-}
-
-#pmb h2 {
-   background: #61b634 url(../images/berita-block-title.png) no-repeat left top;
-   color: #fff;
-   display: inline-block
-}
-
-#pmb h2:after {
-   border-top: 6px solid #59a72f
-}
-
-#pmb h2 a {
-   color: #fff
-}
-
-#pmb .pmb-list li {
-   width: 50%;
-   height: 110px;
-   overflow: hidden;
-   float: left;
-   background: #77cd4a url(../images/pmb-block.png) no-repeat
-}
-
-#pmb .pmb-list li span {
-   display: block
-}
-
-#pmb .pmb-list li span.pmb-title {
-   color: #fff;
-   font-family: 'Roboto', sans-serif;
-   font-size: 14px;
-   line-height: 15px
-}
-
-#pmb .pmb-list li span.pmb-desc {
-   color: #2c3e50;
-   font-size: 11px;
-   line-height: 15px;
-   font-family: 'Roboto', sans-serif;
-}
-
-#pmb .pmb-list li a {
-   padding: 20px 10px 20px 60px
-}
-
-#pmb .pmb-list li a:hover {
-   box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
-   background: none
-}
-
-#pmb .pmb-list li#pmb-informasi-program {
-   background-position: 20px 20px
-}
-
-#pmb .pmb-list li#pmb-informasi-program a {
-   border-right: 1px dotted rgba(255, 255, 255, 0.4)
-}
-
-#pmb .pmb-list li#pmb-pendaftaran-online {
-   background-position: 20px -142px
-}
-
-#pmb .pmb-list li#pmb-download-formulir {
-   background-position: 20px -302px
-}
-
-#pmb .pmb-list li#pmb-download-formulir a {
-   border-right: 1px dotted rgba(255, 255, 255, 0.4)
-}
-
-#pmb .pmb-list li#pmb-pengumuman-hasil-seleksi {
-   background-position: 20px -469px
-}
-
-#content.pmb-single {
-   width: 96%;
-   padding: 1px 2%;
-   background: #fff
-}
-
-#sidebar #pmb .pmb-list li {
-   height: auto
-}
-
 #pengumuman {
    float: left;
    width: 23.58490566%;
@@ -773,7 +681,7 @@ body {
    margin: 0;
    padding: 12px 50px;
    font-size: 11px;
-   text-transform: uppercase;
+ 
    position: relative;
    white-space: nowrap;
    overflow: hidden;
@@ -822,7 +730,7 @@ body {
    margin: 0;
    padding: 12px 50px;
    font-size: 11px;
-   text-transform: uppercase;
+ 
    position: relative;
    white-space: nowrap;
    overflow: hidden;
@@ -895,8 +803,7 @@ body {
 #sidebar .block-title {
    font-family: 'Roboto', sans-serif;
    font-size: 11px;
-   text-transform: uppercase;
-   padding: 13px 0 13px 50px;
+   padding: 5px 0 13px 50px;
    position: relative;
    display: block
 }
@@ -925,15 +832,6 @@ body {
 
 #sidebar #pengumuman-block-title:after {
    border-left: 6px solid #068a93
-}
-
-#sidebar #pmb-block-title {
-   background: #61b634 url(../images/berita-block-title.png) no-repeat left top;
-   color: #fff
-}
-
-#sidebar #pmb-block-title:after {
-   border-left: 6px solid #59a72f
 }
 
 #sidebar #berita-block-title {
@@ -969,21 +867,6 @@ body {
 
 #sidebar .widget_nav_menu {
    background: #cfd6db
-}
-
-#sidebar #pmb {
-   width: 100%;
-   height: auto;
-   float: none
-}
-
-#sidebar #pmb .pmb-list li {
-   width: 100%;
-   float: none
-}
-
-#sidebar #pmb .pmb-list li a {
-   padding: 10px 10px 10px 60px
 }
 
 #content-wrap {
@@ -1143,7 +1026,7 @@ body {
    display: inline-block;
    font-size: 10px;
    color: #7f8c8c;
-   text-transform: uppercase;
+ 
    padding: 0 10px;
    background: #f1eff0 url(../images/tag.png) repeat-x top;
    margin: 0 5px 5px 0;
@@ -1253,7 +1136,7 @@ body {
 .breadcrumb {
    color: #aaa;
    font-size: 9px;
-   text-transform: uppercase;
+ 
    margin-top: 20px
 }
 
@@ -1270,7 +1153,7 @@ body {
    background-color: #fff;
    font-size: 10px;
    font-family: 'Roboto', sans-serif;
-   text-transform: uppercase;
+ 
    color: #999
 }
 
@@ -1428,22 +1311,6 @@ div.wpcf7 .wpcf7-mail-sent-ok {
    margin: 40px 0 0 0;
 }
 
-#footer-banner li {
-   text-indent: -99999px;
-   margin: 0 7px;
-   display: inline-block;
-   vertical-align: middle
-}
-
-#footer-banner a {
-   display: block;
-   vertical-align: middle
-}
-
-#footer-banner a:hover {
-   background-position: 0 0
-}
-
 #about {
    padding-bottom: 20px;
    margin-bottom: 20px;
@@ -1594,7 +1461,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       padding: 5px 35px 5px 50px;
       background: #61b634 url(../images/icon-menu.png) no-repeat 12px 10px;
       color: #fff;
-      text-transform: uppercase;
+    
       font-size: 12px
    }
 
@@ -1670,38 +1537,6 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       font-size: 14px
    }
 
-   #pmb {
-      width: 100%
-   }
-
-   #pmb .pmb-list li a {
-      padding: 10px 10px 10px 60px
-   }
-
-   #pmb .pmb-list li#pmb-informasi-program {
-      background-position: 20px 10px
-   }
-
-   #pmb .pmb-list li#pmb-informasi-program a {
-      border-right: 1px dotted rgba(255, 255, 255, 0.4)
-   }
-
-   #pmb .pmb-list li#pmb-pendaftaran-online {
-      background-position: 20px -152px
-   }
-
-   #pmb .pmb-list li#pmb-download-formulir {
-      background-position: 20px -312px
-   }
-
-   #pmb .pmb-list li#pmb-download-formulir a {
-      border-right: 1px dotted rgba(255, 255, 255, 0.4)
-   }
-
-   #pmb .pmb-list li#pmb-pengumuman-hasil-seleksi {
-      background-position: 20px -479px
-   }
-
    #pengumuman {
       width: 32%;
       margin-left: 0
@@ -1726,14 +1561,6 @@ div.wpcf7 .wpcf7-mail-sent-ok {
    #sidebar {
       width: 100%;
       float: none
-   }
-
-   #sidebar #pmb {
-      margin: 0
-   }
-
-   #sidebar .pmb-list {
-      display: none
    }
 
    #sidebar #sticker {
@@ -1861,7 +1688,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       padding: 5px 35px 5px 50px;
       background: #61b634 url(../images/icon-menu.png) no-repeat 12px 10px;
       color: #fff;
-      text-transform: uppercase;
+    
       font-size: 12px
    }
 
@@ -1942,7 +1769,7 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       right: 0
    }
 
-   #berita, #pmb, #pengumuman, #lowongan {
+   #berita, #pengumuman, #lowongan {
       float: none;
       width: 100%
    }
@@ -1958,12 +1785,6 @@ div.wpcf7 .wpcf7-mail-sent-ok {
       font-size: 14px
    }
 
-   #pmb .pmb-list li {
-      width: 100%;
-      float: none;
-      height: auto
-   }
-
    #pengumuman {
       margin: 0
    }
@@ -1975,10 +1796,6 @@ div.wpcf7 .wpcf7-mail-sent-ok {
    #sidebar {
       width: 100%;
       float: none
-   }
-
-   #sidebar .pmb-list {
-      display: none
    }
 
    #sidebar #sticker {
